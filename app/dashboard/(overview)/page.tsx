@@ -10,6 +10,12 @@ import {
   CardsSkeleton,
 } from "@/app/ui/skeletons";
 
+import { Metadata } from "next";
+export const metadata: Metadata = {
+  title: "Dashboard",
+  description: "Overview of your account and recent activity",
+};
+
 export default async function Page() {
   // Fetching data for the RevenueChart
   // const revenue = await fetchRevenue();
